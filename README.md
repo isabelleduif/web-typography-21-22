@@ -8,76 +8,42 @@ Dat kan visueel sterker.
 
 En dat gaan jullie doen.
 
-## Leerdoelen
+## Ontwerpkeuzes
 
 - Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
 - Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
 - Je kan je typografische keuzes onderbouwen.
 - Je hebt de exclusive design principles gebruikt.
 
-## Oplevering
+### Typografie
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
+Voor mijn typografie heb ik ervoor gekozen om gebruik te maken van de Brenner familie. Ik heb hiervoor gekozen omdat hier voor mijn gevoel de juiste fonts tussen zaten om de stemmen zo goed mogelijk te karakteriseren. Daarnaast waren de fonts goed en snel te implementeren en loop je geen risico dat er een ander font wordt ingeladen.
 
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
+Voice 1 - Ik heb ervoor gekozen om hier een monospace lettertype aan te koppelen. Dit is een lettertype wat is ontworpen voor de typemachine. Alle karakters zijn even breed en ik krijg een enorm mechanisch gevoel bij het lettertype. Daarnaast is voice 1 een wat zwaardere, hardere stem, waardoor ik heb gekozen voor de bold variant.
 
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
+Voice 2 - Voor de stem van Constant K heb ik gekozen voor het Brenner Slab bold font. Constant K praat in een redelijk monotome stem, maar wel meer met karakter. Ook vind ik dat er meer gevoel in zijn stem zit dan in voice 1.
 
-## Typografische restricties
+Voice 3 - Later hoor je iemand met een boze, harde stem zeggen; “Fuck off, Skin-Job!”. Dit komt heel onvriendelijk en agressief over. Ik heb daarom gekozen voor een wat hardere letter in de bold variant: Brenner Sans. Er zit veel karakter in. 
+### Sounds
 
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
+Omdat de video begint met een harde basslijn heb ik ervoor gekozen om bij deze zware toon het frame te laten trillen. De keuze voor dit effect heb ik gemaakt omdat ik een associatie heb met wanneer je muziek met een zware bas afspeelt, er trillingen vrijkomen. Ditzelfde gevoel kreeg ik bij dit geluid.
 
-### Optie 1: Systeemfont
+Op 0:09s hoor je de eerste alarmtoom, dit is ook weer een harde toon. Om het geluid van een alarm beter te visualiseren heb ik ervoor gekozen om bij alle alarmgeluiden de achtergrond rood te maken. Rood is namelijk een kleur die we bijna allemaal associeren met iets urgents of alarm. Het tweede alarm op 0:12s klinkt meer als een sirene, daarom heb ik hier gekozen voor het effect van een sirenelicht. 
 
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
+Op 0:16s horen we een hoge pieptoon. Ik heb ervoor gekozen om het frame bij dit geluid subtiel omhoog en weer terug omlaag te laten bewegen. Deze animatie heb ik opnieuw gecombineerd met een rood licht in de vorm van een radial gradient.
 
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
+De manier waarop de man "Fuck off, Skin-Job!" zegt op 0:24s vond ik aanvoelen als bozig en schreeuwerig. Om deze reden heb ik de tekst hier rood en uppercase gemaakt ten opzichte van de rest.
 
-### Optie 2: Brenner
+Vervolgens is er weer op 0:25s en 0:32s een hoge pieptoon te horen waar ik hetzelfde effect als op 0:16s heb gebruikt. 
 
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
+Vanaf 0:34s verandert de scene. Er is een constante irritante pieptoon aanwezig en er worden zenuwslopende vragen gesteld waar je een ongemakkelijk gevoel van krijgt. Om dit ongemakkelijke gevoel zo goed mogelijk na te bootsen heb ik ervoor gekozen het frame aan de linker- en rechterkant langzaam te croppen. De achterliggende gedachte is een gevoel creëren alsof de ruimte waarin je je bevind steeds kleiner wordt. Dit zorgt voor een gevoel alsof je de controle verliest en paniek ervaart. Wanneer het vragen stellen en de hoge pieptoon stoppen, verandert het frame terug naar standaard formaat. Je ervaart een verlossend gevoel om weer in de normale ruimte te zijn.
 
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
+Het laatste deel van het fragment is een beetje mysterieus en ook is er weer een hoge piep te horen. Ik heb ervoor gekozen om het beeld langzaam heen en weer te laten bewegen in combinatie met het crop effect. Dit heb ik zo goed mogelijk proberen aan te laten sluiten op de toon van de geluiden die je hoort.
 
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
+### Eindconclusie
 
-## Het fragment
+Het vak webtypografie was kort maar krachtig! Ik ben in de afgelopen twee weken tijd intensief bezig geweest aan dit vak waardoor ik er lekker in zat!
 
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
+Aan het begin van het vak had ik wat moeite met op gang komen. In deze week ben ik voornamelijk bezig geweest met het vormgeven van de verschillende voices en het leren begrijpen van de code. Ik vond het voornamelijk lastig om te bedenken hoe bepaalde geluiden het beste gevisualiseerd kunnen worden voor doven mensen. Dit is iets wat ik nooit eerder heb gedaan en daarom eventjes pittig was. Na de eerste week merkte ik dat ik steeds meer inspiratie kreeg en de kwartjes qua coderen steeds sneller vielen. Ook begon het coderen zelfs leuk te worden! Elke keer na de les hebben we met een groepje verder gewerkt in de medialounge. Hier hebben we elkaar kunnen helpen waar nodig, daar heb ik veel aan gehad. 
 
-### De captions
-
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
-
-Met JavaScript worden er een paar dingen extra gedaan: 
-
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+Ik ben erg tevreden met het eindresultaat en ik heb een hoop geleerd in deze korte periode. Ik kan dus zeker zeggen dat ik het met een positief gevoel afsluit :)!
