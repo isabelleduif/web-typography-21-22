@@ -10,11 +10,6 @@ En dat gaan jullie doen.
 
 ## Ontwerpkeuzes
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
-
 ### Typografie
 
 Voor mijn typografie heb ik ervoor gekozen om gebruik te maken van de Brenner familie. Ik heb hiervoor gekozen omdat hier voor mijn gevoel de juiste fonts tussen zaten om de stemmen zo goed mogelijk te karakteriseren. Daarnaast waren de fonts goed en snel te implementeren en loop je geen risico dat er een ander font wordt ingeladen.
